@@ -1337,8 +1337,7 @@ li {
   align-items: center;
 }
 
-.contact_image img {
-  max-width: 450px;
+.contact_image {
   margin: auto;
 }
 
@@ -1356,7 +1355,7 @@ li {
 }
 
 .contact_content :is(input, textarea) {
-  width: 100%;
+  width: 90%;
   padding: 1rem;
   outline: none;
   border: none;
@@ -1449,13 +1448,13 @@ transition: 0.3s;
   align-items: center;
 }
 
-.about_image img {
-  width:80vw;
+.about_image{
+  width:37vw;
   height:40vh;
   margin: 0 auto;
 }
 .gallery {
-  margin-left:150px;
+  margin-left:250px;
 }
 
 .about_content h3 {
@@ -1493,7 +1492,7 @@ transition: 0.3s;
    align-items: center;
 }
 
-.contact_image img {
+.contact_image {
    margin: auto;
 }
 
@@ -1597,9 +1596,9 @@ transition: 0.3s;
     align-items: center;
   }
  
-  .about_image  img{
-   width:45vw;
-   height:40vh;
+  .about_image{
+   width:55vw;
+   height:50vh;
     margin: 0 auto;
   }
  
@@ -1642,10 +1641,8 @@ transition: 0.3s;
     align-items: center;
  }
  
- .contact-img {
-  height:60vh;
-    width:90vw;
-    margin: auto;
+ .contact-image{
+  height:10vh;
  }
  
  .contact_content form {
