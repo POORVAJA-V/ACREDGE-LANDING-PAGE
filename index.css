@@ -1439,7 +1439,9 @@ transition: 0.3s;
 
 
  @media screen and (max-width:450px){
-  
+ body{
+  padding:5px;
+ }
  .about_container {
   display: grid;
   grid-template-columns: 1fr;
@@ -1584,6 +1586,10 @@ transition: 0.3s;
 }
  
  @media screen and (max-width:830px){
+  .nav_links{
+    width:50%;
+    margin:2px;
+  }
   .about_container {
     display: grid;
     grid-template-columns: 1fr;
