@@ -1449,7 +1449,7 @@ transition: 0.3s;
 }
 
 .about_image{
-  width:37vw;
+  width:45vw;
   height:40vh;
   margin: 0 auto;
 }
@@ -1493,11 +1493,12 @@ transition: 0.3s;
 }
 
 .contact_image {
+  width:40vw;
    margin: auto;
 }
 
 .contact_content form {
-    width: 50%;
+    max-width: 50vw;
     display: grid;  
     margin-top: 2rem;
     gap: 1rem;
