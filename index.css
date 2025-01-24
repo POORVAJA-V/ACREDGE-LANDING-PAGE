@@ -1497,7 +1497,7 @@ transition: 0.3s;
 }
 
 .contact_content form {
-    width: 100%;
+    width: 50%;
     display: grid;  
     margin-top: 2rem;
     gap: 1rem;
@@ -1506,11 +1506,11 @@ transition: 0.3s;
 .contact_content .form_group {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
-   gap: 2rem;
+   gap: 1rem;
 }
 
 .contact_content :is(input, textarea) {
-   width: 100%;
+   width: 60%;
    padding: 1rem;
    outline: none;
    border: none;
