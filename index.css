@@ -1499,12 +1499,9 @@ transition: 0.3s;
    gap: 2rem;
    align-items: center;
 }
-.gallery {
-  display: grid;
-  place-content:center;
-  margin-top:80px;
+.gallery img{
+  margin-top:50px;
   margin-bottom:50px;
-  margin-left:auto;
 }
 
 .contact_image {
@@ -1661,7 +1658,6 @@ transition: 0.3s;
  .gallery img{
   height:40vh;
   width:60vw;
-  margin:auto;
   margin-top:60px;
   margin-bottom:40px;
 }
