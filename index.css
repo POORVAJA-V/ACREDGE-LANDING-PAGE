@@ -1436,6 +1436,7 @@ transition: 0.3s;
  @media screen and (max-width:450px){
  body{
   padding:0px;
+  margin:0;
  }
  .about_container {
   display: grid;
@@ -1503,10 +1504,11 @@ transition: 0.3s;
   margin-top:80px;
   margin-bottom:80px;
   margin-left:110px;
+  overflow:hidden;
 }
 .contact_image {
-  width:80vw;
-  height:50vh;
+  width:100vw;
+  height:40vh;
    margin: auto;
 }
 
@@ -1516,7 +1518,9 @@ transition: 0.3s;
     margin-top: 2rem;
     gap: 1rem;
 }
-
+.contact_content h2{
+  font-size:20px;
+}
 .contact_content .form_group {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
