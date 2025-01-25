@@ -1430,10 +1430,6 @@ margin-bottom: 1rem;
 color:#f8f8f8;
 transition: 0.3s; 
 }
-
-.footer_col a span {
-  margin-right: 5px;
-}
 .footer_col a:hover {
   color: #4b4dbf;
 }
@@ -1448,7 +1444,6 @@ transition: 0.3s;
   color: #fff;
   cursor: pointer;
 }
-
 
 
  @media screen and (max-width:450px){
