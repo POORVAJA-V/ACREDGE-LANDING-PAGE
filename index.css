@@ -28,7 +28,7 @@
 .nav_bar {
     max-width: var(--max-width);
     margin: auto;
-    padding: 1rem 1rem;
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1591,7 +1591,7 @@ transition: 0.3s;
  
  @media screen and (max-width:830px){
 .nav_links{
-  gap:1rem;
+  gap:1.5rem;
 }
   .about_container {
     display: grid;
