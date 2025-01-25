@@ -1255,7 +1255,7 @@ li {
 }
 .gallery > a {
   grid-area: 1/1;
-  width: 70%;
+  width: 60%;
   z-index: 2;
   animation: slide var(--d) infinite, z-order var(--d) infinite steps(1);
 }
@@ -1568,6 +1568,7 @@ transition: 0.3s;
 }
 .footer {
   background-color: #131516;
+  width:100%;
 }
 
 .footer_container {
