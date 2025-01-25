@@ -1500,15 +1500,13 @@ transition: 0.3s;
    align-items: center;
 }
 .gallery {
-  --d: 10s;
   display: grid;
   place-content:center;
-  max-width: 90vw;
   margin-top:80px;
   margin-bottom:80px;
 }
 .gallery img{
-  margin-left:110px;
+  margin-left:160px;
   margin-top:40px;
   margin-bottom:40px;
 }
