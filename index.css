@@ -306,7 +306,10 @@ li {
   border-color: var(--text-color);
   border-left: none;
 }
-
+.login{
+  background-color: white;
+  border-radius:30%;
+}
 .social-icons {
   margin-top: 90px;
 }
