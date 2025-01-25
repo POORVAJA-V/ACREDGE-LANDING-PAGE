@@ -169,7 +169,7 @@ li {
   }
   @keyframes fade {
       0%, 100% {
-          opacity: 0.75;
+          opacity: 0.5;
       }
       50% {
           opacity: 1.5;
