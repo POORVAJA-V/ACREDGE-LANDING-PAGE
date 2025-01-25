@@ -1222,6 +1222,7 @@ li {
 }
 
 #project{
+  width:100% !important;
   padding-top:30px;
   padding-bottom:40px;
   display:grid;
@@ -1785,10 +1786,9 @@ transition: 0.3s;
 
 .pic-ctn {
   position: relative;
-  width: 80vw;
+  width: 70vw;
   height: 300px;
   margin-top: 15vh;
-  overflow-x:hidden;
 }
 
 .pic-ctn > a {
