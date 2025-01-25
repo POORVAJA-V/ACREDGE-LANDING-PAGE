@@ -165,7 +165,16 @@ li {
 .logo{
     height:30vh;
     margin:10px;
-}
+    animation: fade 1s ease-in-out infinite;
+  }
+  @keyframes fade {
+      0%, 100% {
+          opacity: 0.5;
+      }
+      50% {
+          opacity: 1.5;
+      }
+    }
 
 .banner-left {
   width: 70%;
