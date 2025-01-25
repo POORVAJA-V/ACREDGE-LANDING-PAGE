@@ -1482,6 +1482,7 @@ transition: 0.3s;
 }
 .gallery{
   margin-left:250px;
+  overflow-x:hidden;
 }
 .about_card h4 {
   margin-bottom: 7px;
