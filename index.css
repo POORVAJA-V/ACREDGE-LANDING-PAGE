@@ -1498,14 +1498,15 @@ transition: 0.3s;
   width: 50px;
   margin-top:80px;
   margin-bottom:80px;
-  margin-left:30px;
+  margin-left:70px;
 }
 .contact_image {
+
    margin: auto;
 }
 
 .contact_content form {
-    width: 100%;
+    width: 80%;
     display: grid;  
     margin-top: 2rem;
     gap: 1rem;
@@ -1514,7 +1515,7 @@ transition: 0.3s;
 .contact_content .form_group {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
-   gap: 2rem;
+   gap: 1rem;
 }
 
 .contact_content :is(input, textarea) {
