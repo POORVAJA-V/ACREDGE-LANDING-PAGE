@@ -165,11 +165,11 @@ li {
 .logo{
     height:30vh;
     margin:10px;
-    animation: fade 1s ease-in-out infinite;
+    animation: fade 0.9s ease-in-out infinite;
   }
   @keyframes fade {
       0%, 100% {
-          opacity: 0.5;
+          opacity: 0.85;
       }
       50% {
           opacity: 1;
