@@ -1470,7 +1470,7 @@ transition: 0.3s;
   color: #5d5fef;
 }
 .section_subheader{
-  font-size:15px;
+  font-size:20px;
 }
 
 .about_grid {
@@ -1479,6 +1479,9 @@ transition: 0.3s;
 }
 #project h3{
   font-size:15px;
+}
+.gallery{
+  margin-left:70px;
 }
 .about_card h4 {
   margin-bottom: 7px;
