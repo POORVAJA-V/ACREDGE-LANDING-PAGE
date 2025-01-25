@@ -1435,7 +1435,7 @@ transition: 0.3s;
 
  @media screen and (max-width:450px){
  body{
-  padding:1px;
+  padding:0px;
  }
  .about_container {
   display: grid;
