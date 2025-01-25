@@ -1506,7 +1506,11 @@ transition: 0.3s;
   max-width: 90vw;
   margin-top:80px;
   margin-bottom:80px;
-  margin-left:110px;
+}
+.gallery img{
+  margin:auto;
+  margin-top:60px;
+  margin-bottom:40px;
 }
 .contact_image {
   width:100vw;
@@ -1663,7 +1667,7 @@ transition: 0.3s;
   height:40vh;
   width:60vw;
   margin:auto;
-  margin-top:50px;
+  margin-top:60px;
   margin-bottom:40px;
 }
  .contact_image{
