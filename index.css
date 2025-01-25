@@ -1563,8 +1563,6 @@ transition: 0.3s;
 }
 .footer {
   background-color: #131516;
-  background-size: cover;
-  width:100vw;
 }
 
 .footer_container {
