@@ -1500,7 +1500,7 @@ transition: 0.3s;
   --d: 10s;
   display: grid;
   place-content:center;
-  max-width: 40vw;
+  max-width: 90vw;
   margin-top:80px;
   margin-bottom:80px;
   margin-left:110px;
