@@ -1229,7 +1229,7 @@ li {
   place-content: center;
 }
 #project h1{
-  margin-left:50px;
+  margin-left:30px;
 }
  
 #project h3{
@@ -1244,20 +1244,18 @@ li {
   --d: 10s;
   display: grid;
   place-content:center;
-  width: 50px;
+  width: 0px;
   margin:auto;
 }
 .gallery img{
-  height:60vh;
+  height:50vh;
   width:40vw;
   margin-top:120px;
   margin-bottom:150px;
 }
 .gallery > a {
   grid-area: 1/1;
-  width: 70%;
-  aspect-ratio: 1;
-  object-fit: cover;
+  width: 20%;
   z-index: 2;
   animation: slide var(--d) infinite, z-order var(--d) infinite steps(1);
 }
@@ -1268,7 +1266,7 @@ li {
 
 .gallery > a:nth-child(1) {
   animation-delay: calc(0*var(--d));
-  --r: -18deg;
+  --r: -10deg;
 }
 
 .gallery > a:nth-child(2) {
@@ -1658,8 +1656,8 @@ transition: 0.3s;
  .gallery img{
   height:40vh;
   width:60vw;
-  margin-top:60px;
-  margin-bottom:40px;
+  margin-top:80px;
+  margin-bottom:80px;
 }
  .contact_image{
   height:60vh;
@@ -1757,7 +1755,7 @@ transition: 0.3s;
  }
 
  .pic-ctn {
-  width: 100vw;
+  width: 50vw;
   height: 300px;
 }
 
@@ -1790,7 +1788,11 @@ transition: 0.3s;
   height: 300px;
   margin-top: 15vh;
 }
-
+@media screen and (max-width:450px){
+  .pic-ctn{
+    width:50vw;
+  }
+}
 .pic-ctn > a {
   position: absolute;
   top: 0;
