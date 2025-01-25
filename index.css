@@ -39,7 +39,7 @@
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
  }
  .link a {
     padding: 10px;
@@ -1452,6 +1452,9 @@ transition: 0.3s;
 .nav_links{
   gap:0.3rem;
   padding-bottom:10px;
+}
+.nav_bar{
+  gap:0.5rem;
 }
 .link a{
   padding:0px;
