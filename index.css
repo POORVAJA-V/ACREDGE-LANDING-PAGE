@@ -1262,7 +1262,7 @@ li {
 @media screen and (max-width:450px){
   .gallery > a {
     grid-area: 1/1;
-    width: 25%;
+    width: 30%;
     z-index: 2;
     animation: slide var(--d) infinite, z-order var(--d) infinite steps(1);
   }
@@ -1497,7 +1497,7 @@ transition: 0.3s;
   margin-top:30px;
 }
 .gallery{
-  margin-left:100px;
+  margin-left:110px;
 }
 .about_card h4 {
   margin-bottom: 7px;
